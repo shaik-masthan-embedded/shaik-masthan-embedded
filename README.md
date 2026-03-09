@@ -76,7 +76,15 @@ reliable, testable, and CI/CD-ready firmware — a rare combination in the embed
 ---
 
 ### ⚙️ [AUTOSAR MCAL Config Showcase](https://github.com/shaik-masthan-embedded/autosar-mcal-showcase)
-> *(Coming soon)* MCAL driver configuration for SPI/CAN with EB Tresos documentation
+> AUTOSAR ASW 4.4.0 SPI & CAN MCAL drivers for NXP S32K148 with Python ARXML validator
+
+- ✅ SPI driver — 6 AUTOSAR APIs (SWS_Spi_*)
+- ✅ CAN driver — FlexCAN0/1, 500kbps + 250kbps
+- ✅ Python ARXML validator — 6 compliance checks
+- ✅ ARM Cortex-M4 cross-compile in CI
+- ✅ cppcheck static analysis
+
+**Stack:** `AUTOSAR` `Embedded C` `NXP S32K148` `Python` `cppcheck` `GitHub Actions`
 
 ---
 
