@@ -62,8 +62,16 @@ reliable, testable, and CI/CD-ready firmware — a rare combination in the embed
 
 ---
 
-### 🔌 [CAN Bus Simulator — Python](https://github.com/shaik-masthan-embedded/can-bus-simulator)
-> *(Coming soon)* Simulate CAN frames, automate message validation, generate test reports
+### 🚌 [CAN Bus Simulator — Python Automotive ECU Simulation](https://github.com/shaik-masthan-embedded/can-bus-simulator)
+> Pure Python CAN bus simulator with 5 ECU nodes, signal validation, and HTML/JSON reports
+
+- ✅ 5 ECU nodes: ECM, ABS, TCM, GW — realistic automotive signals
+- ✅ CAPL-equivalent validation — range, cycle time, life counter checks
+- ✅ 507 CAN frames simulated per run
+- ✅ HTML dashboard + JSON test reports
+- ✅ GitHub Actions CI/CD pipeline
+
+**Stack:** `Python` `CAN ISO 11898` `GitHub Actions` `Pytest` `HTML Reports`
 
 ---
 
